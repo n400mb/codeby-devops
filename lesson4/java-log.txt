@@ -1,0 +1,30 @@
+Script started on 2023-10-29 22:56:40+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="154" LINES="26"]
+[1m[7m%[27m[1m[0m                                                                                                                                                          ]2;logic@devops:~]1;~[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hjjava --version[?1l>[?2004l
+]2;java --version]1;javajava 17.0.9 2023-10-17 LTS
+Java(TM) SE Runtime Environment (build 17.0.9+11-LTS-201)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.9+11-LTS-201, mixed mode, sharing)
+[1m[7m%[27m[1m[0m                                                                                                                                                          ]2;logic@devops:~]1;~[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hssudo update-alternatives[1m [0m[0m --config[?1l>[?2004l
+]2;sudo update-alternatives --config]1;update-alternativesupdate-alternatives: для --config требуется <имя>
+
+Для получения информации по использованию программы используйте «update-alternatives --help».
+[1m[7m%[27m[1m[0m                                                                                                                                                          ]2;logic@devops:~]1;~[0m[27m[24m[J[01;31m➜  [36m~[00m [K[?1h=[?2004hsudo update-alternatives --configconfig [?1l>[?2004l
+]2;sudo update-alternatives -config]1;update-alternativesupdate-alternatives: ошибка: неизвестный аргумент «-config»
+[1m[7m%[27m[1m[0m                                                                                                                                                          ]2;logic@devops:~]1;~[0m[27m[24m[J[01;31m➜  [36m~[00m [K[?1h=[?2004hsudo update-alternatives -config[1C[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                          ]2;logic@devops:~]1;~[0m[27m[24m[J[01;31m➜  [36m~[00m [K[?1h=[?2004hsudo update-alternatives -config-config[33Djava --version                   [19D[14Dscript CODEBY/codeby-devops/lesson4/java-log.txt[48Djava --version                                  [34D[14Dsudo update-alternatives --config java[38Djava --version                        [24D[14Dsudo update-alternatives --config java[?1l>[?2004l
+]2;sudo update-alternatives --config java]1;update-alternativesЕсть 2 варианта для альтернативы java (предоставляет /usr/bin/java).
+
+  Выбор   Путь                                     Приор Состояние
+------------------------------------------------------------
+* 0            /usr/lib/jvm/jdk-17-oracle-x64/bin/java       285286400 автоматический режим
+  1            /usr/lib/jvm/java-17-openjdk-amd64/bin/java   1711      ручной режим
+  2            /usr/lib/jvm/jdk-17-oracle-x64/bin/java       285286400 ручной режим
+
+Нажмите «enter», чтобы не менять текущий выбор[*], или введите нужное число: 1
+update-alternatives: используется /usr/lib/jvm/java-17-openjdk-amd64/bin/java для предоставления /usr/bin/java (java) в ручном режиме
+[1m[7m%[27m[1m[0m                                                                                                                                                          ]2;logic@devops:~]1;~[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hsudo update-alternatives --config java[12Dconfig      -config[33Djava --version                   [19D[14Dscript CODEBY/codeby-devops/lesson4/java-log.txt[48Djava --version                                  [34D[?1l>[?2004l
+]2;java --version]1;javaopenjdk 17.0.8 2023-07-18
+OpenJDK Runtime Environment (build 17.0.8+7-Debian-1deb12u1)
+OpenJDK 64-Bit Server VM (build 17.0.8+7-Debian-1deb12u1, mixed mode, sharing)
+[1m[7m%[27m[1m[0m                                                                                                                                                          ]2;logic@devops:~]1;~[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on 2023-10-29 22:58:01+03:00 [COMMAND_EXIT_CODE="0"]
