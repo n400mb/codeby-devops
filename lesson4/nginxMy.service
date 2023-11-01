@@ -1,0 +1,15 @@
+[Unit]
+Description=Start Nginx Service my script 
+ 
+[Service]
+Type=forking
+ExecStart=/usr/sbin/nginx
+ExecStop=-/sbin/start-stop-daemon --quiet --stop --retry QUIT/5 --pidfile /run/nginx.pid
+TimeoutSec=0
+RemainAfterExit=yes
+SysVStartPriority=99
+KillMode=mixed
+ 
+[Install]
+WantedBy=multi-user.target
+
