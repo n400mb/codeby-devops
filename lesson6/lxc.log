@@ -1,0 +1,551 @@
+Script started on 2023-11-09 00:48:02+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="154" LINES="26"]
+[1m[7m%[27m[1m[0m                                                                                                                                                          ]2;logic@devopsVM:~/CODEBY/codeby-devops]1;..codeby-devops[0m[27m[24m[J[22;36mlogic[22;35m•[22;32m~/CODEBY/codeby-devops[01;34m([22;31mlesson6[01;33m⚡[01;34m)[00m» [K[103C[0:48:02][112D[?1h=[?2004hllxc launch images:ubuntu/jammy/amd64 jammy[42D[7ml[7mx[7mc[7m [7ml[7ma[7mu[7mn[7mc[7mh[7m [7mi[7mm[7ma[7mg[7me[7ms[7m:[7mu[7mb[7mu[7mn[7mt[7mu[7m/[7mj[7ma[7mm[7mm[7my[7m/[7ma[7mm[7md[7m6[7m4[7m [7mj[7ma[7mm[7mm[7my[27m[42D[27ml[27mx[27mc[27m [27ml[27ma[27mu[27mn[27mc[27mh[27m [27mi[27mm[27ma[27mg[27me[27ms[27m:[27mu[27mb[27mu[27mn[27mt[27mu[27m/[27mj[27ma[27mm[27mm[27my[27m/[27ma[27mm[27md[27m6[27m4[27m [27mj[27ma[27mm[27mm[27my[?1l>[?2004l
+]2;lxc launch images:ubuntu/jammy/amd64 jammy]1;lxcError: Get "http://unix.socket/1.0": dial unix /var/lib/lxd/unix.socket: connect: permission denied
+[1m[7m%[27m[1m[0m                                                                                                                                                          ]2;logic@devopsVM:~/CODEBY/codeby-devops]1;..codeby-devops[0m[27m[24m[J[22;36mlogic[22;35m•[22;32m~/CODEBY/codeby-devops[01;34m([22;31mlesson6[01;33m⚡[01;34m)[00m» [K[103C[0:48:22][112D[?1h=[?2004hlxc launch images:ubuntu/jammy/amd64 jammy[42Dslxc launch images:ubuntu/jammy/amd64 jammy[42Dsulxc launch images:ubuntu/jammy/amd64 jammy[42Ddlxc launch images:ubuntu/jammy/amd64 jammy[42Dolxc launch images:ubuntu/jammy/amd64 jammy[42D lxc launch images:ubuntu/jammy/amd64 jammy[42D[?1l>[?2004l
+]2;sudo lxc launch images:ubuntu/jammy/amd64 jammy]1;lxcsudo: unable to resolve host devopsVM: Неизвестное имя или служба
+Creating jammy
+Error: Failed instance creation: Failed creating instance record: Add instance info to the database: This "instances" entry already exists
+[1m[7m%[27m[1m[0m                                                                                                                                                          ]2;logic@devopsVM:~/CODEBY/codeby-devops]1;..codeby-devops[0m[27m[24m[J[22;36mlogic[22;35m•[22;32m~/CODEBY/codeby-devops[01;34m([22;31mlesson6[01;33m⚡[01;34m)[00m» [K[103C[0:48:28][112D[?1h=[?2004hss[90mudo lxc launch images:ubuntu/jammy/amd64 jammy[39m[46Ds[39mu[39md[39mo[39m [39ml[39mc[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [40D [90mxc launch images:ubuntu/jammy/amd64 jammy[39m[41D[39mx[39mc[39m [39ml[39mi[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [36Dst[?1l>[?2004l
+]2;sudo lxc list]1;lxcsudo: unable to resolve host devopsVM: Неизвестное имя или служба
++-------+---------+----------------------+------+-----------+-----------+
+| NAME  |  STATE  |         IPV4         | IPV6 |   TYPE    | SNAPSHOTS |
++-------+---------+----------------------+------+-----------+-----------+
+| jammy | RUNNING | 10.220.91.243 (eth0) |      | CONTAINER | 1         |
++-------+---------+----------------------+------+-----------+-----------+
+[1m[7m%[27m[1m[0m                                                                                                                                                          ]2;logic@devopsVM:~/CODEBY/codeby-devops]1;..codeby-devops[0m[27m[24m[J[22;36mlogic[22;35m•[22;32m~/CODEBY/codeby-devops[01;34m([22;31mlesson6[01;33m⚡[01;34m)[00m» [K[103C[0:48:38][112D[?1h=[?2004hss[90mudo lxc list[39m[12Ds[39mu[39md[39mo[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D[90m lxc list[39m[9D [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[90mo lxc list[39m[10D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[90mdo lxc list[39m[11Ds [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12Ds[90mudo lxc list[39m[12D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13Dss[90mudo lxc list[39m[12Ds[39mu[39md[39mo[39m [39ml[39mc[39m [39m [39m [39m [39m [39m  [90mxc list[39m[39mx[39mc[39m [39me[39m [39m [39m lesson     [90mist[39m [39m [39m [39m [90mlist[39m[39me[39m [39m [39m xec "apt install apav che2"jexec "apt install apache2"[26Daexec "apt install apache2"[26Dmexec "apt install apache2"[26Dmexec "apt install apache2"[26Dyexec "apt install apache2"[26D exec "apt install apache2"[26D-exec "apt install apache2"[26D-exec "apt install apache2"[26D exec "apt install apache2"[26D/exec "apt install apache2"[26Dbexec "apt install apache2"[26Diexec "apt install apache2"[26Dnexec "apt install apache2"[26D/exec "apt install apache2"[26Dsexec "apt install apache2"[26Dhexec "apt install apache2"[26D exec "apt install apache2"[26D[1C[1C[1C[1C "apt install apache2" [23D "apt install apache2" [23D "apt install apache2" [23D "apt install apache2" [23Dejammy -- /bin/sh  "apt install apache2"[39Dxjammy -- /bin/sh  "apt install apache2"[39Dejammy -- /bin/sh  "apt install apache2"[39Dcjammy -- /bin/sh  "apt install apache2"[39D jammy -- /bin/sh  "apt install apache2"[39D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C- "apt install apache2"[22Dc "apt install apache2"[22D[?1l>[?2004l
+]2;sudo lxc exec jammy -- /bin/sh -c "apt install apache2"]1;lxcsudo: unable to resolve host devopsVM: Неизвестное имя или служба
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 2%Reading state information... Done
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap libbrotli1 libcurl4 libjansson4 libldap-2.5-0
+  libldap-common liblua5.3-0 libnghttp2-14 librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libssh-4 ssl-cert
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom www-browser ufw libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal
+  libsasl2-modules-ldap libsasl2-modules-otp libsasl2-modules-sql
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap libbrotli1 libcurl4 libjansson4
+  libldap-2.5-0 libldap-common liblua5.3-0 libnghttp2-14 librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libssh-4 ssl-cert
+0 upgraded, 21 newly installed, 0 to remove and 0 not upgraded.
+Need to get 3374 kB of archives.
+After this operation, 12.1 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m[33m0% [Waiting for headers][0m                        Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libapr1 amd64 1.7.0-8ubuntu0.22.04.1 [108 kB]
+[33m0% [1 libapr1 2613 B/108 kB 2%][0m[33m2% [1 libapr1 79.4 kB/108 kB 73%][0m[33m                                 4% [Working][0m            Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libaprutil1 amd64 1.6.1-5ubuntu4.22.04.2 [92.8 kB]
+[33m4% [2 libaprutil1 1166 B/92.8 kB 1%][0m[33m                                    7% [Waiting for headers][0m                        Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-5ubuntu4.22.04.2 [11.3 kB]
+[33m7% [3 libaprutil1-dbd-sqlite3 799 B/11.3 kB 7%][0m[33m                                               8% [Waiting for headers][0m                        Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsasl2-modules-db amd64 2.1.27+dfsg2-3ubuntu1.2 [20.5 kB]
+[33m8% [4 libsasl2-modules-db 758 B/20.5 kB 4%][0m[33m                                           9% [Waiting for headers][0m                        Get:5 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsasl2-2 amd64 2.1.27+dfsg2-3ubuntu1.2 [53.8 kB]
+[33m9% [5 libsasl2-2 3169 B/53.8 kB 6%][0m[33m                                   12% [Waiting for headers][0m                         Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libldap-2.5-0 amd64 2.5.16+dfsg-0ubuntu0.22.04.1 [183 kB]
+[33m12% [6 libldap-2.5-0 413 B/183 kB 0%][0m[33m                                     17% [Waiting for headers][0m                         Get:7 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libaprutil1-ldap amd64 1.6.1-5ubuntu4.22.04.2 [9170 B]
+[33m17% [7 libaprutil1-ldap 998 B/9170 B 11%][0m[33m                                         18% [Waiting for headers][0m                         Get:8 http://archive.ubuntu.com/ubuntu jammy/main amd64 libbrotli1 amd64 1.0.9-2build6 [315 kB]
+[33m18% [8 libbrotli1 1681 B/315 kB 1%][0m[33m                                   26% [Waiting for headers][0m                         Get:9 http://archive.ubuntu.com/ubuntu jammy/main amd64 libnghttp2-14 amd64 1.43.0-1build3 [76.3 kB]
+[33m27% [9 libnghttp2-14 17.8 kB/76.3 kB 23%][0m                                         Get:10 http://archive.ubuntu.com/ubuntu jammy/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2build4 [58.2 kB]
+[33m                                         29% [10 librtmp1 8440 B/58.2 kB 15%][0m[33m                                    32% [Waiting for headers][0m                         Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libssh-4 amd64 0.9.6-2ubuntu0.22.04.1 [185 kB]
+[33m32% [11 libssh-4 2076 B/185 kB 1%][0m[33m                                  37% [Working][0m             Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcurl4 amd64 7.81.0-1ubuntu1.14 [290 kB]
+[33m37% [12 libcurl4 1165 B/290 kB 0%][0m[33m38% [12 libcurl4 51.8 kB/290 kB 18%][0m[33m38% [12 libcurl4 60.5 kB/290 kB 21%][0m[33m                                    40% [12 libcurl4 126 kB/290 kB 43%][0m[33m                                   45% [Working][0m             Get:13 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjansson4 amd64 2.13.1-1.1build3 [32.4 kB]
+[33m45% [13 libjansson4 1167 B/32.4 kB 4%][0m[33m                                      46% [Waiting for headers][0m                         Get:14 http://archive.ubuntu.com/ubuntu jammy/main amd64 liblua5.3-0 amd64 5.3.6-1build1 [140 kB]
+[33m46% [14 liblua5.3-0 382 B/140 kB 0%][0m[33m                                    51% [Waiting for headers][0m                         Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apache2-bin amd64 2.4.52-1ubuntu4.6 [1345 kB]
+[33m51% [15 apache2-bin 313 B/1345 kB 0%][0m[33m53% [15 apache2-bin 113 kB/1345 kB 8%][0m[33m69% [15 apache2-bin 757 kB/1345 kB 56%]                                                                                                       360 kB/s 2s[0m[33m69% [15 apache2-bin 758 kB/1345 kB 56%]                                                                                                       360 kB/s 2s[0m[33m84% [Waiting for headers]                                                                                                                     360 kB/s 1s[0m                                                                                                                                                         Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apache2-data all 2.4.52-1ubuntu4.6 [165 kB]
+[33m84% [16 apache2-data 26.5 kB/165 kB 16%]                                                                                                      360 kB/s 1s[0m[33m88% [Waiting for headers]                                                                                                                     360 kB/s 0s[0m                                                                                                                                                         Get:17 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apache2-utils amd64 2.4.52-1ubuntu4.6 [89.1 kB]
+[33m90% [17 apache2-utils 50.9 kB/89.1 kB 57%]                                                                                                    360 kB/s 0s[0m[33m91% [Working]                                                                                                                                 360 kB/s 0s[0m                                                                                                                                                         Get:18 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apache2 amd64 2.4.52-1ubuntu4.6 [97.8 kB]
+[33m92% [18 apache2 27.1 kB/97.8 kB 28%]                                                                                                          360 kB/s 0s[0m[33m95% [Waiting for headers]                                                                                                                     360 kB/s 0s[0m                                                                                                                                                         Get:19 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libldap-common all 2.5.16+dfsg-0ubuntu0.22.04.1 [15.8 kB]
+[33m95% [19 libldap-common 15.8 kB/15.8 kB 100%]                                                                                                  360 kB/s 0s[0m[33m96% [Working]                                                                                                                                 360 kB/s 0s[0m                                                                                                                                                         Get:20 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsasl2-modules amd64 2.1.27+dfsg2-3ubuntu1.2 [68.8 kB]
+[33m97% [20 libsasl2-modules 38.1 kB/68.8 kB 55%]                                                                                                 360 kB/s 0s[0m[33m99% [Waiting for headers]                                                                                                                     360 kB/s 0s[0m                                                                                                                                                         Get:21 http://archive.ubuntu.com/ubuntu jammy/main amd64 ssl-cert all 1.1.2 [17.4 kB]
+[33m99% [21 ssl-cert 2739 B/17.4 kB 16%]                                                                                                          360 kB/s 0s[0m[33m100% [Working]                                                                                                                                360 kB/s 0s[0m                                                                                                                                                         Fetched 3374 kB in 8s (447 kB/s)
+Preconfiguring packages ...
+
+7[0;25r8[1ASelecting previously unselected package libapr1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 21690 files and directories currently installed.)
+Preparing to unpack .../00-libapr1_1.7.0-8ubuntu0.22.04.1_amd64.deb ...
+7[26;0f[42m[30mProgress: [  0%][49m[39m [....................................................................................................................................] 87[26;0f[42m[30mProgress: [  1%][49m[39m [#...................................................................................................................................] 8Unpacking libapr1:amd64 (1.7.0-8ubuntu0.22.04.1) ...
+7[26;0f[42m[30mProgress: [  2%][49m[39m [###.................................................................................................................................] 8Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../01-libaprutil1_1.6.1-5ubuntu4.22.04.2_amd64.deb ...
+7[26;0f[42m[30mProgress: [  4%][49m[39m [####................................................................................................................................] 8Unpacking libaprutil1:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+7[26;0f[42m[30mProgress: [  5%][49m[39m [######..............................................................................................................................] 8Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../02-libaprutil1-dbd-sqlite3_1.6.1-5ubuntu4.22.04.2_amd64.deb ...
+7[26;0f[42m[30mProgress: [  6%][49m[39m [#######.............................................................................................................................] 8Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+7[26;0f[42m[30mProgress: [  7%][49m[39m [#########...........................................................................................................................] 8Selecting previously unselected package libsasl2-modules-db:amd64.
+Preparing to unpack .../03-libsasl2-modules-db_2.1.27+dfsg2-3ubuntu1.2_amd64.deb ...
+7[26;0f[42m[30mProgress: [  8%][49m[39m [##########..........................................................................................................................] 8Unpacking libsasl2-modules-db:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+7[26;0f[42m[30mProgress: [  9%][49m[39m [############........................................................................................................................] 8Selecting previously unselected package libsasl2-2:amd64.
+Preparing to unpack .../04-libsasl2-2_2.1.27+dfsg2-3ubuntu1.2_amd64.deb ...
+7[26;0f[42m[30mProgress: [ 11%][49m[39m [#############.......................................................................................................................] 8Unpacking libsasl2-2:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+7[26;0f[42m[30mProgress: [ 12%][49m[39m [###############.....................................................................................................................] 8Selecting previously unselected package libldap-2.5-0:amd64.
+Preparing to unpack .../05-libldap-2.5-0_2.5.16+dfsg-0ubuntu0.22.04.1_amd64.deb ...
+7[26;0f[42m[30mProgress: [ 13%][49m[39m [#################...................................................................................................................] 8Unpacking libldap-2.5-0:amd64 (2.5.16+dfsg-0ubuntu0.22.04.1) ...
+7[26;0f[42m[30mProgress: [ 14%][49m[39m [##################..................................................................................................................] 8Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../06-libaprutil1-ldap_1.6.1-5ubuntu4.22.04.2_amd64.deb ...
+7[26;0f[42m[30mProgress: [ 15%][49m[39m [####################................................................................................................................] 8Unpacking libaprutil1-ldap:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+7[26;0f[42m[30mProgress: [ 16%][49m[39m [#####################...............................................................................................................] 8Selecting previously unselected package libbrotli1:amd64.
+Preparing to unpack .../07-libbrotli1_1.0.9-2build6_amd64.deb ...
+7[26;0f[42m[30mProgress: [ 18%][49m[39m [#######################.............................................................................................................] 8Unpacking libbrotli1:amd64 (1.0.9-2build6) ...
+7[26;0f[42m[30mProgress: [ 19%][49m[39m [########################............................................................................................................] 8Selecting previously unselected package libnghttp2-14:amd64.
+Preparing to unpack .../08-libnghttp2-14_1.43.0-1build3_amd64.deb ...
+7[26;0f[42m[30mProgress: [ 20%][49m[39m [##########################..........................................................................................................] 8Unpacking libnghttp2-14:amd64 (1.43.0-1build3) ...
+7[26;0f[42m[30mProgress: [ 21%][49m[39m [###########################.........................................................................................................] 8Selecting previously unselected package librtmp1:amd64.
+Preparing to unpack .../09-librtmp1_2.4+20151223.gitfa8646d.1-2build4_amd64.deb ...
+7[26;0f[42m[30mProgress: [ 22%][49m[39m [#############################.......................................................................................................] 8Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build4) ...
+7[26;0f[42m[30mProgress: [ 24%][49m[39m [###############################.....................................................................................................] 8Selecting previously unselected package libssh-4:amd64.
+Preparing to unpack .../10-libssh-4_0.9.6-2ubuntu0.22.04.1_amd64.deb ...
+7[26;0f[42m[30mProgress: [ 25%][49m[39m [################################....................................................................................................] 8Unpacking libssh-4:amd64 (0.9.6-2ubuntu0.22.04.1) ...
+7[26;0f[42m[30mProgress: [ 26%][49m[39m [##################################..................................................................................................] 8Selecting previously unselected package libcurl4:amd64.
+Preparing to unpack .../11-libcurl4_7.81.0-1ubuntu1.14_amd64.deb ...
+7[26;0f[42m[30mProgress: [ 27%][49m[39m [###################################.................................................................................................] 8Unpacking libcurl4:amd64 (7.81.0-1ubuntu1.14) ...
+7[26;0f[42m[30mProgress: [ 28%][49m[39m [#####################################...............................................................................................] 8Selecting previously unselected package libjansson4:amd64.
+Preparing to unpack .../12-libjansson4_2.13.1-1.1build3_amd64.deb ...
+7[26;0f[42m[30mProgress: [ 29%][49m[39m [######################################..............................................................................................] 8Unpacking libjansson4:amd64 (2.13.1-1.1build3) ...
+7[26;0f[42m[30mProgress: [ 31%][49m[39m [########################################............................................................................................] 8Selecting previously unselected package liblua5.3-0:amd64.
+Preparing to unpack .../13-liblua5.3-0_5.3.6-1build1_amd64.deb ...
+7[26;0f[42m[30mProgress: [ 32%][49m[39m [#########################################...........................................................................................] 8Unpacking liblua5.3-0:amd64 (5.3.6-1build1) ...
+7[26;0f[42m[30mProgress: [ 33%][49m[39m [###########################################.........................................................................................] 8Selecting previously unselected package apache2-bin.
+Preparing to unpack .../14-apache2-bin_2.4.52-1ubuntu4.6_amd64.deb ...
+7[26;0f[42m[30mProgress: [ 34%][49m[39m [#############################################.......................................................................................] 8Unpacking apache2-bin (2.4.52-1ubuntu4.6) ...
+7[26;0f[42m[30mProgress: [ 35%][49m[39m [##############################################......................................................................................] 8Selecting previously unselected package apache2-data.
+Preparing to unpack .../15-apache2-data_2.4.52-1ubuntu4.6_all.deb ...
+7[26;0f[42m[30mProgress: [ 36%][49m[39m [################################################....................................................................................] 8Unpacking apache2-data (2.4.52-1ubuntu4.6) ...
+7[26;0f[42m[30mProgress: [ 38%][49m[39m [#################################################...................................................................................] 8Selecting previously unselected package apache2-utils.
+Preparing to unpack .../16-apache2-utils_2.4.52-1ubuntu4.6_amd64.deb ...
+7[26;0f[42m[30mProgress: [ 39%][49m[39m [###################################################.................................................................................] 8Unpacking apache2-utils (2.4.52-1ubuntu4.6) ...
+7[26;0f[42m[30mProgress: [ 40%][49m[39m [####################################################................................................................................] 8Selecting previously unselected package apache2.
+Preparing to unpack .../17-apache2_2.4.52-1ubuntu4.6_amd64.deb ...
+7[26;0f[42m[30mProgress: [ 41%][49m[39m [######################################################..............................................................................] 8Unpacking apache2 (2.4.52-1ubuntu4.6) ...
+7[26;0f[42m[30mProgress: [ 42%][49m[39m [#######################################################.............................................................................] 8Selecting previously unselected package libldap-common.
+Preparing to unpack .../18-libldap-common_2.5.16+dfsg-0ubuntu0.22.04.1_all.deb ...
+7[26;0f[42m[30mProgress: [ 44%][49m[39m [#########################################################...........................................................................] 8Unpacking libldap-common (2.5.16+dfsg-0ubuntu0.22.04.1) ...
+7[26;0f[42m[30mProgress: [ 45%][49m[39m [###########################################################.........................................................................] 8Selecting previously unselected package libsasl2-modules:amd64.
+Preparing to unpack .../19-libsasl2-modules_2.1.27+dfsg2-3ubuntu1.2_amd64.deb ...
+7[26;0f[42m[30mProgress: [ 46%][49m[39m [############################################################........................................................................] 8Unpacking libsasl2-modules:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+7[26;0f[42m[30mProgress: [ 47%][49m[39m [##############################################################......................................................................] 8Selecting previously unselected package ssl-cert.
+Preparing to unpack .../20-ssl-cert_1.1.2_all.deb ...
+7[26;0f[42m[30mProgress: [ 48%][49m[39m [###############################################################.....................................................................] 8Unpacking ssl-cert (1.1.2) ...
+7[26;0f[42m[30mProgress: [ 49%][49m[39m [#################################################################...................................................................] 8Setting up libbrotli1:amd64 (1.0.9-2build6) ...
+7[26;0f[42m[30mProgress: [ 51%][49m[39m [##################################################################..................................................................] 87[26;0f[42m[30mProgress: [ 52%][49m[39m [####################################################################................................................................] 8Setting up libsasl2-modules:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+7[26;0f[42m[30mProgress: [ 53%][49m[39m [#####################################################################...............................................................] 87[26;0f[42m[30mProgress: [ 54%][49m[39m [#######################################################################.............................................................] 8Setting up libnghttp2-14:amd64 (1.43.0-1build3) ...
+7[26;0f[42m[30mProgress: [ 55%][49m[39m [########################################################################............................................................] 87[26;0f[42m[30mProgress: [ 56%][49m[39m [##########################################################################..........................................................] 8Setting up libapr1:amd64 (1.7.0-8ubuntu0.22.04.1) ...
+7[26;0f[42m[30mProgress: [ 58%][49m[39m [############################################################################........................................................] 87[26;0f[42m[30mProgress: [ 59%][49m[39m [#############################################################################.......................................................] 8Setting up libldap-common (2.5.16+dfsg-0ubuntu0.22.04.1) ...
+7[26;0f[42m[30mProgress: [ 60%][49m[39m [###############################################################################.....................................................] 87[26;0f[42m[30mProgress: [ 61%][49m[39m [################################################################################....................................................] 8Setting up libjansson4:amd64 (2.13.1-1.1build3) ...
+7[26;0f[42m[30mProgress: [ 62%][49m[39m [##################################################################################..................................................] 87[26;0f[42m[30mProgress: [ 64%][49m[39m [###################################################################################.................................................] 8Setting up libsasl2-modules-db:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+7[26;0f[42m[30mProgress: [ 65%][49m[39m [#####################################################################################...............................................] 87[26;0f[42m[30mProgress: [ 66%][49m[39m [######################################################################################..............................................] 8Setting up ssl-cert (1.1.2) ...
+7[26;0f[42m[30mProgress: [ 67%][49m[39m [########################################################################################............................................] 87[26;0f[42m[30mProgress: [ 68%][49m[39m [##########################################################################################..........................................] 8Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build4) ...
+7[26;0f[42m[30mProgress: [ 69%][49m[39m [###########################################################################################.........................................] 87[26;0f[42m[30mProgress: [ 71%][49m[39m [#############################################################################################.......................................] 8Setting up libsasl2-2:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+7[26;0f[42m[30mProgress: [ 72%][49m[39m [##############################################################################################......................................] 87[26;0f[42m[30mProgress: [ 73%][49m[39m [################################################################################################....................................] 8Setting up libssh-4:amd64 (0.9.6-2ubuntu0.22.04.1) ...
+7[26;0f[42m[30mProgress: [ 74%][49m[39m [#################################################################################################...................................] 87[26;0f[42m[30mProgress: [ 75%][49m[39m [###################################################################################################.................................] 8Setting up liblua5.3-0:amd64 (5.3.6-1build1) ...
+7[26;0f[42m[30mProgress: [ 76%][49m[39m [####################################################################################################................................] 87[26;0f[42m[30mProgress: [ 78%][49m[39m [######################################################################################################..............................] 8Setting up apache2-data (2.4.52-1ubuntu4.6) ...
+7[26;0f[42m[30mProgress: [ 79%][49m[39m [########################################################################################################............................] 87[26;0f[42m[30mProgress: [ 80%][49m[39m [#########################################################################################################...........................] 8Setting up libaprutil1:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+7[26;0f[42m[30mProgress: [ 81%][49m[39m [###########################################################################################################.........................] 87[26;0f[42m[30mProgress: [ 82%][49m[39m [############################################################################################################........................] 8Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+7[26;0f[42m[30mProgress: [ 84%][49m[39m [##############################################################################################################......................] 87[26;0f[42m[30mProgress: [ 85%][49m[39m [###############################################################################################################.....................] 8Setting up libldap-2.5-0:amd64 (2.5.16+dfsg-0ubuntu0.22.04.1) ...
+7[26;0f[42m[30mProgress: [ 86%][49m[39m [#################################################################################################################...................] 87[26;0f[42m[30mProgress: [ 87%][49m[39m [##################################################################################################################..................] 8Setting up libcurl4:amd64 (7.81.0-1ubuntu1.14) ...
+7[26;0f[42m[30mProgress: [ 88%][49m[39m [####################################################################################################################................] 87[26;0f[42m[30mProgress: [ 89%][49m[39m [######################################################################################################################..............] 8Setting up apache2-utils (2.4.52-1ubuntu4.6) ...
+7[26;0f[42m[30mProgress: [ 91%][49m[39m [#######################################################################################################################.............] 87[26;0f[42m[30mProgress: [ 92%][49m[39m [#########################################################################################################################...........] 8Setting up libaprutil1-ldap:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+7[26;0f[42m[30mProgress: [ 93%][49m[39m [##########################################################################################################################..........] 87[26;0f[42m[30mProgress: [ 94%][49m[39m [############################################################################################################################........] 8Setting up apache2-bin (2.4.52-1ubuntu4.6) ...
+7[26;0f[42m[30mProgress: [ 95%][49m[39m [#############################################################################################################################.......] 87[26;0f[42m[30mProgress: [ 96%][49m[39m [###############################################################################################################################.....] 8Setting up apache2 (2.4.52-1ubuntu4.6) ...
+7[26;0f[42m[30mProgress: [ 98%][49m[39m [################################################################################################################################....] 8Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.service.
+7[26;0f[42m[30mProgress: [ 99%][49m[39m [##################################################################################################################################..] 8Processing triggers for libc-bin (2.35-0ubuntu3.4) ...
+
+7[0;26r8[1A[J[1m[7m%[27m[1m[0m                                                                                                                                                          ]2;logic@devopsVM:~/CODEBY/codeby-devops]1;..codeby-devops[0m[27m[24m[J[22;36mlogic[22;35m•[22;32m~/CODEBY/codeby-devops[01;34m([22;31mlesson6[01;33m⚡[01;34m)[00m» [K[103C[0:51:29][112D[?1h=[?2004hss[90mudo lxc exec jammy -- /bin/sh -c "apt install apache2"[39m[54Ds[39mu[39md[39mo[39m [39ml[39mx[39mc[39m [39me[39mx[39me[39mc[39m [39mj[39ma[39mm[39mm[39my[39m [39m-[39m-[39m [39m/[39mb[39mi[39mn[39m/[39ms[39mh[39m [39m-[39mc[39m [39m"[39ma[39mp[39mt[39m [39mi[39mn[39ms[39mt[39ma[39ml[39ml[39m [39ma[39mp[39ma[39mc[39mh[39me[39m2[39m"" " " " " " " " " " " " " " " " " " " i"p" "a"[?1l>[?2004l
+]2;sudo lxc exec jammy -- /bin/sh -c "ip a"]1;lxcsudo: unable to resolve host devopsVM: Неизвестное имя или служба
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+7: eth0@if8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether 00:16:3e:86:18:4a brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet 10.220.91.243/24 metric 100 brd 10.220.91.255 scope global dynamic eth0
+       valid_lft 2373sec preferred_lft 2373sec
+    inet6 fe80::216:3eff:fe86:184a/64 scope link 
+       valid_lft forever preferred_lft forever
+[1m[7m%[27m[1m[0m                                                                                                                                                          ]2;logic@devopsVM:~/CODEBY/codeby-devops]1;..codeby-devops[0m[27m[24m[J[22;36mlogic[22;35m•[22;32m~/CODEBY/codeby-devops[01;34m([22;31mlesson6[01;33m⚡[01;34m)[00m» [K[103C[0:51:47][112D[?1h=[?2004hcc[90md /home/logic/CODEBY/codeby-devops/[39m[35Dc[39mu[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [34Drl 10.220.91.243[?1l>[?2004l
+]2;curl 10.220.91.243]1;curl<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!--
+    Modified from the Debian original for Ubuntu
+    Last updated: 2022-03-22
+    See: https://launchpad.net/bugs/1966004
+  -->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Apache2 Ubuntu Default Page: It works</title>
+    <style type="text/css" media="screen">
+  * {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  body, html {
+    padding: 3px 3px 3px 3px;
+
+    background-color: #D8DBE2;
+
+    font-family: Ubuntu, Verdana, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+  }
+
+  div.main_page {
+    position: relative;
+    display: table;
+
+    width: 800px;
+
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 0px;
+
+    border-width: 2px;
+    border-color: #212738;
+    border-style: solid;
+
+    background-color: #FFFFFF;
+
+    text-align: center;
+  }
+
+  div.page_header {
+    height: 180px;
+    width: 100%;
+
+    background-color: #F5F6F7;
+  }
+
+  div.page_header span {
+    margin: 15px 0px 0px 50px;
+
+    font-size: 180%;
+    font-weight: bold;
+  }
+
+  div.page_header img {
+    margin: 3px 0px 0px 40px;
+
+    border: 0px 0px 0px;
+  }
+
+  div.banner {
+    padding: 9px 6px 9px 6px;
+    background-color: #E9510E;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 112%;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    bottom: 30px;
+    width: 20%;
+  }
+
+  div.table_of_contents {
+    clear: left;
+
+    min-width: 200px;
+
+    margin: 3px 3px 3px 3px;
+
+    background-color: #FFFFFF;
+
+    text-align: left;
+  }
+
+  div.table_of_contents_item {
+    clear: left;
+
+    width: 100%;
+
+    margin: 4px 0px 0px 0px;
+
+    background-color: #FFFFFF;
+
+    color: #000000;
+    text-align: left;
+  }
+
+  div.table_of_contents_item a {
+    margin: 6px 0px 0px 6px;
+  }
+
+  div.content_section {
+    margin: 3px 3px 3px 3px;
+
+    background-color: #FFFFFF;
+
+    text-align: left;
+  }
+
+  div.content_section_text {
+    padding: 4px 8px 4px 8px;
+
+    color: #000000;
+    font-size: 100%;
+  }
+
+  div.content_section_text pre {
+    margin: 8px 0px 8px 0px;
+    padding: 8px 8px 8px 8px;
+
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #000000;
+
+    background-color: #F5F6F7;
+
+    font-style: italic;
+  }
+
+  div.content_section_text p {
+    margin-bottom: 6px;
+  }
+
+  div.content_section_text ul, div.content_section_text li {
+    padding: 4px 8px 4px 16px;
+  }
+
+  div.section_header {
+    padding: 3px 6px 3px 6px;
+
+    background-color: #8E9CB2;
+
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 112%;
+    text-align: center;
+  }
+
+  div.section_header_grey {
+    background-color: #9F9386;
+  }
+
+  .floating_element {
+    position: relative;
+    float: left;
+  }
+
+  div.table_of_contents_item a,
+  div.content_section_text a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  div.table_of_contents_item a:link,
+  div.table_of_contents_item a:visited,
+  div.table_of_contents_item a:active {
+    color: #000000;
+  }
+
+  div.table_of_contents_item a:hover {
+    background-color: #000000;
+
+    color: #FFFFFF;
+  }
+
+  div.content_section_text a:link,
+  div.content_section_text a:visited,
+   div.content_section_text a:active {
+    background-color: #DCDFE6;
+
+    color: #000000;
+  }
+
+  div.content_section_text a:hover {
+    background-color: #000000;
+
+    color: #DCDFE6;
+  }
+
+  div.validator {
+  }
+    </style>
+  </head>
+  <body>
+    <div class="main_page">
+      <div class="page_header floating_element">
+        <img src="icons/ubuntu-logo.png" alt="Ubuntu Logo"
+             style="width:184px;height:146px;" class="floating_element" />
+        <div>
+          <span style="margin-top: 1.5em;" class="floating_element">
+            Apache2 Default Page
+          </span>
+        </div>
+        <div class="banner">
+          <div id="about"></div>
+          It works!
+        </div>
+
+      </div>
+      <div class="content_section floating_element">
+        <div class="content_section_text">
+          <p>
+                This is the default welcome page used to test the correct 
+                operation of the Apache2 server after installation on Ubuntu systems.
+                It is based on the equivalent page on Debian, from which the Ubuntu Apache
+                packaging is derived.
+                If you can read this page, it means that the Apache HTTP server installed at
+                this site is working properly. You should <b>replace this file</b> (located at
+                <tt>/var/www/html/index.html</tt>) before continuing to operate your HTTP server.
+          </p>
+
+          <p>
+                If you are a normal user of this web site and don't know what this page is
+                about, this probably means that the site is currently unavailable due to
+                maintenance.
+                If the problem persists, please contact the site's administrator.
+          </p>
+
+        </div>
+        <div class="section_header">
+          <div id="changes"></div>
+                Configuration Overview
+        </div>
+        <div class="content_section_text">
+          <p>
+                Ubuntu's Apache2 default configuration is different from the
+                upstream default configuration, and split into several files optimized for
+                interaction with Ubuntu tools. The configuration system is
+                <b>fully documented in
+                /usr/share/doc/apache2/README.Debian.gz</b>. Refer to this for the full
+                documentation. Documentation for the web server itself can be
+                found by accessing the <a href="/manual">manual</a> if the <tt>apache2-doc</tt>
+                package was installed on this server.
+          </p>
+          <p>
+                The configuration layout for an Apache2 web server installation on Ubuntu systems is as follows:
+          </p>
+          <pre>
+/etc/apache2/
+|-- apache2.conf
+|       `--  ports.conf
+|-- mods-enabled
+|       |-- *.load
+|       `-- *.conf
+|-- conf-enabled
+|       `-- *.conf
+|-- sites-enabled
+|       `-- *.conf
+          </pre>
+          <ul>
+                        <li>
+                           <tt>apache2.conf</tt> is the main configuration
+                           file. It puts the pieces together by including all remaining configuration
+                           files when starting up the web server.
+                        </li>
+
+                        <li>
+                           <tt>ports.conf</tt> is always included from the
+                           main configuration file. It is used to determine the listening ports for
+                           incoming connections, and this file can be customized anytime.
+                        </li>
+
+                        <li>
+                           Configuration files in the <tt>mods-enabled/</tt>,
+                           <tt>conf-enabled/</tt> and <tt>sites-enabled/</tt> directories contain
+                           particular configuration snippets which manage modules, global configuration
+                           fragments, or virtual host configurations, respectively.
+                        </li>
+
+                        <li>
+                           They are activated by symlinking available
+                           configuration files from their respective
+                           *-available/ counterparts. These should be managed
+                           by using our helpers
+                           <tt>
+                                a2enmod,
+                                a2dismod,
+                           </tt>
+                           <tt>
+                                a2ensite,
+                                a2dissite,
+                            </tt>
+                                and
+                           <tt>
+                                a2enconf,
+                                a2disconf
+                           </tt>. See their respective man pages for detailed information.
+                        </li>
+
+                        <li>
+                           The binary is called apache2 and is managed using systemd, so to
+                           start/stop the service use <tt>systemctl start apache2</tt> and
+                           <tt>systemctl stop apache2</tt>, and use <tt>systemctl status apache2</tt>
+                           and <tt>journalctl -u apache2</tt> to check status.  <tt>system</tt>
+                           and <tt>apache2ctl</tt> can also be used for service management if
+                           desired.
+                           <b>Calling <tt>/usr/bin/apache2</tt> directly will not work</b> with the
+                           default configuration.
+                        </li>
+          </ul>
+        </div>
+
+        <div class="section_header">
+            <div id="docroot"></div>
+                Document Roots
+        </div>
+
+        <div class="content_section_text">
+            <p>
+                By default, Ubuntu does not allow access through the web browser to
+                <em>any</em> file outside of those located in <tt>/var/www</tt>,
+                <a href="http://httpd.apache.org/docs/2.4/mod/mod_userdir.html" rel="nofollow">public_html</a>
+                directories (when enabled) and <tt>/usr/share</tt> (for web
+                applications). If your site is using a web document root
+                located elsewhere (such as in <tt>/srv</tt>) you may need to whitelist your
+                document root directory in <tt>/etc/apache2/apache2.conf</tt>.
+            </p>
+            <p>
+                The default Ubuntu document root is <tt>/var/www/html</tt>. You
+                can make your own virtual hosts under /var/www.
+            </p>
+        </div>
+
+        <div class="section_header">
+          <div id="bugs"></div>
+                Reporting Problems
+        </div>
+        <div class="content_section_text">
+          <p>
+                Please use the <tt>ubuntu-bug</tt> tool to report bugs in the
+                Apache2 package with Ubuntu. However, check <a
+                href="https://bugs.launchpad.net/ubuntu/+source/apache2"
+                rel="nofollow">existing bug reports</a> before reporting a new bug.
+          </p>
+          <p>
+                Please report bugs specific to modules (such as PHP and others)
+                to their respective packages, not to the web server itself.
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <div class="validator">
+    </div>
+  </body>
+</html>
+[1m[7m%[27m[1m[0m                                                                                                                                                          ]2;logic@devopsVM:~/CODEBY/codeby-devops]1;..codeby-devops[0m[27m[24m[J[22;36mlogic[22;35m•[22;32m~/CODEBY/codeby-devops[01;34m([22;31mlesson6[01;33m⚡[01;34m)[00m» [K[103C[0:52:07][112D[?1h=[?2004h[?2004l
+
+Script done on 2023-11-09 00:52:14+03:00 [COMMAND_EXIT_CODE="0"]
