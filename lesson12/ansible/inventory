@@ -1,0 +1,12 @@
+all:
+  children:
+    dev:
+      hosts:
+        dev.local:
+          ansible_port: 22
+          ansible_user: vagrant
+    prod:
+      hosts:
+        prod.local:
+          ansible_port: 22
+          ansible_user: vagrant

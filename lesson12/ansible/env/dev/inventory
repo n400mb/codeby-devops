@@ -1,0 +1,5 @@
+[dev]
+dev.local
+[dev:vars]
+ansible_user=vagrant
+ansible_port=22
