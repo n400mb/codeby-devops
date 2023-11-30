@@ -1,8 +1,7 @@
 ---
 - name: Servers vm
   hosts: 
-    - prod
-    - dev 
+    - web-servers
   become: yes
   vars:
     soft:
